@@ -1,38 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <title>KindredCode 💻⚙️</title>
+  <meta name="description" content="Welcome to KindredCode — a clean, fast, and accessible starter template." />
+  <meta name="robots" content="index,follow" />
+  <meta name="color-scheme" content="light dark" />
+  <!-- Optional: theme colors per scheme -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#c08457" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#c08457" />
 
-<title>Kindred Code 💻⚙️</title>
-<meta name="description" content="Welcome to kindredcode.dev. A clean, fast, and accessible starter template." />
-<meta name="robots" content="index,follow" />
-<meta name="color-scheme" content="light dark" />
-<meta name="theme-color" content="#c08457" />
+  <!-- Canonical URL (use your primary www domain) -->
+  <link rel="canonical" href="https://www.kindredcode.dev/" />
 
+  <!-- Favicons / PWA -->
+  <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect rx="12" width="64" height="64" fill="%23c08457"/%3E%3Ctext x="50%25" y="57%25" text-anchor="middle" font-size="42" font-family="system-ui,Segoe UI,Arial" fill="white"%3EK%3C/text%3E%3C/svg%3E' />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
-<!-- Canonical URL -->
-<link rel="canonical" href="https://kindredcode.dev/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="KindredCode — Modern HTML Boilerplate" />
+  <meta property="og:description" content="A clean, fast, and accessible starter template for www.kindredcode.dev." />
+  <meta property="og:site_name" content="KindredCode" />
+  <meta property="og:url" content="https://www.kindredcode.dev/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.kindredcode.dev/og-linkedin.png" />
+  <!-- Optional: help some scrapers -->
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KindredCode — Modern HTML Boilerplate" />
+  <meta name="twitter:description" content="A clean, fast, and accessible starter template for www.kindredcode.dev." />
+  <meta name="twitter:image" content="https://www.kindredcode.dev/og-linkedin.png" />
 
-<!-- Favicons / PWA -->
-<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect rx="12" width="64" height="64" fill="%23c08457"/%3E%3Ctext x="50%25" y="57%25" text-anchor="middle" font-size="42" font-family="system-ui,Segoe UI,Arial" fill="white"%3EK%3C/text%3E%3C/svg%3E' />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
-
-
-<!-- Open Graph / Twitter -->
-<meta property="og:title" content="kindredcode.dev — Modern HTML Boilerplate" />
-<meta property="og:description" content="A clean, fast, and accessible starter template for kindredcode.dev." />
-<meta property="og:url" content="https://kindredcode.dev/" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://kindredcode.dev/og-linkedin.png" />
-<!-- Base styles -->
---card: #ffffff;
-}
-}
-</style>
+  <!-- Base styles (fixed broken block) -->
+  <style>
+    :root {
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --card: #0b0b0b; }
+    }
+  </style>
+</head>
 
 <body>
 <main>
@@ -73,32 +87,6 @@
 			<p>Email us at <a href="mailto:hello@kindredcode.dev">hello@kindredcode.dev</a></p>
 		</div>
 	</div>
-</section>
-<h3>PWA ready</h3>
-<p>Manifest, icons, and theme color — just add your assets.</p>
-</article>
-</div>
-</div>
-</section>
-
-
-<section id="about">
-<div class="container">
-<div class="card">
-<h2>About kindredcode.dev</h2>
-<p>Swap in your brand copy here. Keep it short and clear — who you help, what you do, and why it matters.</p>
-</div>
-</div>
-</section>
-
-
-<section id="contact">
-<div class="container">
-<div class="card">
-<h2>Contact</h2>
-<p>Email us at <a href="mailto:hello@kindredcode.dev">hello@kindredcode.dev</a></p>
-</div>
-</div>
 </section>
 </main>
 
